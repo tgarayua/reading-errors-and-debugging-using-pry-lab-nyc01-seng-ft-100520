@@ -1,8 +1,9 @@
 # don't forget to add: require 'pry'
 
-def snake_it_up("surprise!")
+def snake_it_up(string)
+  s = "sssssssssss"
   if string[0] == "s"
-    return "sssssssssssurprise!"
+    s + string
   else
     string
   end
